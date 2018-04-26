@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contactos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Lista de contactos
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Contacto 1
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Contacto 2
+    </a>
+    <a ion-item (click)="openModal({charNum: 2})">
+      Contacto 3
+    </a>
+  </ion-list>
+</ion-content>
